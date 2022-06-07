@@ -189,8 +189,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4280383545
-  m_fontColor: {r: 0.22292662, g: 0.4716981, b: 0.13127448, a: 1}
+    rgba: 4280852433
+  m_fontColor: {r: 0.8207547, g: 0.6226906, b: 0.15873085, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -393,6 +393,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 45616e80ab591884eafafdb32c4c30b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  connectionInfoText: {fileID: 187680297}
+  joinButton: {fileID: 1295583296}
 --- !u!1 &1031773068
 GameObject:
   m_ObjectHideFlags: 0
@@ -580,7 +582,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.43672937, g: 0.43347278, b: 0.4811321, a: 1}
+  m_Color: {r: 0.4811321, g: 0.2122666, b: 0.13843894, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -941,8 +943,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4287409476
-  m_fontColor: {r: 0.26593092, g: 0.6792453, b: 0.5480625, a: 1}
+    rgba: 4285967684
+  m_fontColor: {r: 0.26666668, g: 0.6784314, b: 0.46448055, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:

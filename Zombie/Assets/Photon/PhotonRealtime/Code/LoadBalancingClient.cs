@@ -133,8 +133,8 @@ namespace Photon.Realtime
         JoinOrCreateRoom
     }
 
-    /// <summary>Enumeration of causes for Disconnects (used in LoadBalancingClient.DisconnectedCause).</summary>
-    /// <remarks>Read the individual descriptions to find out what to do about this type of disconnect.</remarks>
+    /// <summary>연결 끊김 원인 열거(LoadBalancingClient.DisconnectedCause에서 사용).</summary>
+    /// <remarks>이러한 유형의 연결 끊김에 대해 수행할 작업을 알아보려면 개별 설명을 읽어보세요.</remarks>
     public enum DisconnectCause
     {
         /// <summary>No error was tracked.</summary>
