@@ -120,8 +120,14 @@ public class ZombieSpawner : MonoBehaviourPun, IPunObservable
         // 생성한 좀비를 셋업하기 위해 Zombie 컴포넌트를 가져옴
         Zombie zombie = createdZombie.GetComponent<Zombie>();
 
+        // Serialize, Deserialize처리 말고 응용한 부분
+        //Vector4 colorVector = zombieData.skinColor;
+        //Quaternion colorVector = new Quaternion(zombieData.skinColor.r, zombieData.skinColor.g, zombieData.skinColor.b, zombieData.skinColor.a);
+        
         // 생성한 좀비의 능력치 설정
         zombie.photonView.RPC("Setup", RpcTarget.All, zombieData.health, zombieData.damage, zombieData.speed, zombieData.skinColor);
+        
+        // Serialize, Deserialize처리 말고 응용한 부분으로 했을 때 위 주석처리 후 사용.
         //zombie.photonView.RPC("Setup", RpcTarget.All, zombieData.health, zombieData.damage, zombieData.speed, colorVector);
     
         // zombie.GetComponent<Zombie>().Setup(zombieData);
